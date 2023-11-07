@@ -1,0 +1,5 @@
+include README.rst
+include LICENSE
+include requirements.txt
+recursive-include ckanext/rocrate *.html *.json *.js *.less *.css *.mo *.yml
+recursive-include ckanext/rocrate/migration *.ini *.py *.mako
